@@ -1,16 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Photoblog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="app">
-    <header>Header</header>
-    <main>Main</main>
-    <footer>Foooter</footer>
+    <header class="container">
+      <nav>
+        <img src="./img/Vector.jpg" alt="Imagem da logomarca">
+        <ul>
+          <li>Home</li>
+          <li class="active">Galeria</li>
+        </ul>
+      </nav>
+      <form>
+        <div class="input-wrapper">
+          <label for="search">Pesquise por imagens e coleções</label>
+          <input type="text" id="search" placeholder="Pesquise por imagens e coleções">
+        </div>
+      </form>
+      <img src="./img/avatar.jfif" alt="Avatar" class="avatar">
+    </header>
+    <main>
+      <div class="container">
+        <h1>Galeria</h1>
+        <section class="gallery">
+          <figure class="item">
+            <img src="./img/1.png" alt="">
+            <figcaption class="details">
+              <h2>Workspace elétrica</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item">
+            <img src="./img/2.png" alt="">
+            <figcaption class="details">
+              <h2>Dark and red</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item">
+            <img src="./img/3.png" alt="">
+            <figcaption class="details">
+              <h2>Organização e grids</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item">
+            <img src="./img/4.png" alt="">
+            <figcaption class="details">
+              <h2>Colméia</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item">
+            <img src="./img/5.png" alt="">
+            <figcaption class="details">
+              <h2>Setup de escritor</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item">
+            <img src="./img/6.png" alt="">
+            <figcaption class="details">
+              <h2>Ergonomia e cores</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item">
+            <img src="./img/7.png" alt="">
+            <figcaption class="details">
+              <h2>Organização e grides</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item">
+            <img src="./img/8.png" alt="">
+            <figcaption class="details">
+              <h2>Organização e grides</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item">
+            <img src="./img/9.png" alt="">
+            <figcaption class="details">
+              <h2>Show de luzes</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+        </section>
+      </div>
+    </main>
+    <footer class="container">
+      <p>© 2023 - Rocketseat Explorer</p>
+    </footer>
   </div>
 </body>
 </html>
